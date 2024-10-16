@@ -1,0 +1,71 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.myphoto {
+    width: 150px;
+    border: 1px solid #2b2839;
+    border-radius: 50%;
+    transition: transform 1s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(to bottom right, #ddebf8, #d8cefe);
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Enhance hover effects */
+.myphoto:hover {
+    transform: rotate(360deg);
+}
+
+.border-blue {
+    border: 1px dotted blue;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.border-blue:hover {
+    border-color: red;
+}
+
+/* Add a button style */
+.card .btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #d8cefe;
+    color: #2b2839;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card .btn:hover {
+    background-color: #c5b3e0;
+}
